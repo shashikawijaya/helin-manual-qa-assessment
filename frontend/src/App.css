@@ -1,0 +1,51 @@
+/* Basic styling for the buggy React app */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px; /* Added a max-width to keep the UI compact */
+  margin: 0 auto; /* Center the UI */
+}
+
+/* Input fields: Proper width and alignment */
+input {
+  margin-right: 10px;
+  padding: 8px;
+  width: 70%; /* Adjusted width to align better with buttons */
+  box-sizing: border-box;
+}
+
+/* Buttons: Intentional hover bug added */
+button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #007bff; /* Primary blue */
+  color: white;
+  border: none;
+  margin: 5px 0;
+}
+
+button:hover {
+  background-color: white; /* Bug: Button background becomes white */
+  color: white; /* Bug: Text also turns white, making it invisible */
+}
+
+/* Error message styling */
+p {
+  color: red;
+  margin-top: 10px;
+  margin-left: 0; /* Aligned error message properly */
+}
+
+/* Styling for user list */
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1rem; /* Reduced font size for readability */
+  padding: 5px 0;
+  color: black; /* Unified text color */
+}
+
+/* Removed unnecessary styling for redundant buttons */
