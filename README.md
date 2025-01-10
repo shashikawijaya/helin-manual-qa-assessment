@@ -27,11 +27,3 @@ This is a simple buggy application designed for UI-level manual testing.
    ```
 
 3. Open the frontend in your browser at `http://localhost:3000`.
-
-## Intentional Bugs
-1. Placeholder typo in the input field.
-2. Adds blank users without validation.
-3. Error message misalignment in the UI.
-4. Displays duplicate usernames in the user list.
-5. 500 error for empty GET request in the backend.
-6. Allows duplicate usernames to be added.
